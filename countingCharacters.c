@@ -7,7 +7,9 @@ int main()
 {
 
     printf("%d \n", stringLength("stringLength test"));
-    
+    printf("%d \n", stringLength(""));
+    printf("%d \n", stringLength("is this thing working right?h"));
+
     return 0;
 
 }
