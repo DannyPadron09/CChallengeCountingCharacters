@@ -6,6 +6,8 @@ int stringLength(const char *string);
 int main()
 {
 
+    printf("%d \n", stringLength("stringLength test"));
+    
     return 0;
 
 }
@@ -18,5 +20,5 @@ int stringLength(const char *string)
         ++lastAddress;
 
     return lastAddress - string;
-    
+
 }
